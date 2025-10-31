@@ -35,6 +35,9 @@ M.default_config = {
     telescope = {
       enabled = false
     },
+    nvimtree = {
+      enabled = true
+    },
     nvim = {
       enabled = true,
       show_end_of_buffer = true
