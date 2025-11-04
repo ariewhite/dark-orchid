@@ -1,13 +1,6 @@
-local M = {}
+local palette = require("dark-orchid.colors")
 
-M.url = "https://github.com/kyazdani42/nvim-tree.lua"
-
----@type dark-orchid.HighlightsFn
-function M.get(c, opts)
-  local palette = require("dark-orchid.colors")
-
-  -- stylua: ignore
-  return {
+local M = {
     NvimTreeFolderIcon   = { bg = palette.none, fg = palette.purple_500 },
 
     NvimTreeGitDeleted   = { fg = palette.red_600 },
@@ -32,7 +25,6 @@ function M.get(c, opts)
       fg = opts.styles.sidebars == "transparent" and palette.zinc_800 or palette.zinc_950,
       bg = palette.zinc_950
     },
-  }
-end
+}
 
 return M
