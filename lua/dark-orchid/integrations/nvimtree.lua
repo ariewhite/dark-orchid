@@ -14,8 +14,8 @@ local M = {
 
   NvimTreeIndentMarker = { fg = palette.zinc_600 },
 
-  NvimTreeNormal       = { fg = palette.zinc_200, bg = palette.zinc_950 },
-  NvimTreeNormalNC     = { fg = palette.zinc_200, bg = palette.zinc_950 },
+  NvimTreeNormal       = { fg = palette.zinc_200, bg = palette.none },
+  NvimTreeNormalNC     = { fg = palette.zinc_200, bg = palette.none },
 
   NvimTreeOpenedFile   = { bg = palette.zinc_900 },
 
@@ -23,7 +23,7 @@ local M = {
 
   NvimTreeWinSeparator = {
     fg = palette.zinc_800,
-    bg = palette.zinc_950,
+    bg = palette.none,
   },
 }
 
