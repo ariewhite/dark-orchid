@@ -12,6 +12,7 @@ local M = {
   NvimTreeGitDirty         = { fg = palette.yellow_600 },
   NvimTreeGitNew           = { fg = palette.green_800 },
   -- files 
+  NvimTreeFileIcon         = { fg = palette.white },
   NvimTreeExecFile         = { fg = palette.white },
   NvimTreeOpenedFile       = { fg = palette.zinc_900, bold = true },
   NvimTreeSpecialFile      = { fg = palette.white, underline = true },
