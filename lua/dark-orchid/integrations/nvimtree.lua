@@ -19,6 +19,11 @@ local M = {
   NvimTreeSymlink          = { fg = palette.white },
   NvimTreeSymlinkIcon      = { fg = palette.white },
   NvimTreeImageFile        = { fg = palette.purple_500 },
+  
+  -- modified icons
+  NvimTreeModifiedIcon     = { fg = palette.white },
+  NvimTreeModifiedFileHL   = { fg = palette.white },
+  NvimTreeModifiedFolderHL = { fg = palette.white },
   -- other
   NvimTreeIndentMarker     = { fg = palette.zinc_600 },
 
